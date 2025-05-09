@@ -79,13 +79,6 @@ pip install pandas numpy scipy statsmodels scikit-learn matplotlib seaborn openp
 
 ```
 
-## Uso
-Ejecuta cada script desde línea de comandos o impórtalo en tu proyecto:
-
-```bash
-python nombre_del_script.py --input datos.xlsx --output resultados.xlsx
-```
-
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Abre issues o pull requests para mejorar o ampliar los scripts.
 
