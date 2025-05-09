@@ -71,11 +71,13 @@ python nombre_del_script.py
   - `matplotlib`
   - `seaborn`
   - `openpyxl`
-  - `xgboost` (solo para `stat_predictivos.py`)
+  - `xgboost`
+  - `tensorflow`
+  - `joblib`
 
 Para instalar todas las dependencias:
 ```bash
-pip install pandas numpy scipy statsmodels scikit-learn matplotlib seaborn openpyxl xgboost
+pip install pandas numpy scipy statsmodels scikit-learn matplotlib seaborn openpyxl xgboost tensorflow joblib  
 
 ```
 
