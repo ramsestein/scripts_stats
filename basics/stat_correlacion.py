@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Cargar el archivo Excel
-file_path = "PPC_all_1.xlsx"  # Cambia esto por la ruta a tu archivo
+file_path = "PPC_all.xlsx"  # Cambia esto por la ruta a tu archivo
 df = pd.read_excel(file_path)
 
 # Eliminar columnas no numéricas (opcional, basado en tu dataset)
