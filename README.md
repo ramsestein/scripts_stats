@@ -8,6 +8,7 @@ Repositorio de scripts estadísticos y de machine learning diseñados para facil
 ## Índice
 
 - [Estructura del repositorio](#estructura-del-repositorio)
+  - [SHAP/](#SHAP)
   - [analisis_confusor/](#analisis_confusor)
   - [basics/](#basics)
   - [cluster/](#cluster)
@@ -22,6 +23,10 @@ Repositorio de scripts estadísticos y de machine learning diseñados para facil
 ---
 
 ## Estructura del repositorio
+
+### `SHAP/`
+Scripts destinados a dar explicabilidad a los diferentes modelos accedibles desde la carpeta train_model y evaluate model.
+Utiliza SHAP y ICE para el estudio de explicabilidad.
 
 ### `analisis_confusor/`
 Scripts destinados a evaluar el impacto de variables confusoras sobre resultados clínicos o modelos predictivos.  
@@ -74,10 +79,12 @@ python nombre_del_script.py
   - `xgboost`
   - `tensorflow`
   - `joblib`
+  - `shap`
+  - `pillow`
 
 Para instalar todas las dependencias:
 ```bash
-pip install pandas numpy scipy statsmodels scikit-learn matplotlib seaborn openpyxl xgboost tensorflow joblib  
+pip install pandas numpy scipy statsmodels scikit-learn matplotlib seaborn openpyxl xgboost tensorflow joblib shap pillow 
 
 ```
 
